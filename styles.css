@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4cbaa;
+  overflow: hidden;
+}
+
+#gameCanvas {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+
+.overlay h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+#restartBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+}
